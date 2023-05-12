@@ -40,7 +40,7 @@ void main()
 	prevbt = 0;
 	for(i =0;i<n;i++)
 	{
-	 ct[i]+ s=prevbt+bt[i];
+	 ct[i]=prevbt+bt[i];
 	 printf("%d",prevbt);
 	 prevbt = ct[i];
 	 printf("%d",prevbt);
